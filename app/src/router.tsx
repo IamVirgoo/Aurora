@@ -1,8 +1,8 @@
 import {createBrowserRouter} from "react-router-dom";
 import IndexPage from "./pages/indexPage";
 import AppOutlet from "./layout/AppOutlet";
-import AppIndex from "./pages/application/appIndex";
-import SecondPage from "./pages/application/secondPage";
+import AdminIndex from "./pages/admin/adminIndex";
+import ExhausterTrends from "./pages/admin/exhausterTrends";
 
 export const Router = createBrowserRouter([
     {
@@ -11,16 +11,16 @@ export const Router = createBrowserRouter([
         element : <IndexPage/>
     },
     {
-        path : '/app',
+        path: 'admin/',
         element : <AppOutlet/>,
         children : [
             {
                 index : true,
-                element : <AppIndex/>
+                element : <AdminIndex/>
             },
             {
-                path : 'second',
-                element : <SecondPage/>
+                path : 'trends',
+                element : <ExhausterTrends/>
             }
         ]
     }
