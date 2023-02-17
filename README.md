@@ -1,3 +1,4 @@
+
 # About template
 
 This template is made based on React.js, Vite, TypeScript, Styled-components and Redux (optionally).
@@ -6,7 +7,7 @@ This template is made based on React.js, Vite, TypeScript, Styled-components and
 
 ```bash
 $ cd app
-$ yarn install # or npm or pnpm install  
+$ yarn install # or npm or pnpm install
 ```
 ## Available Scripts
 
@@ -30,4 +31,3 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
-
