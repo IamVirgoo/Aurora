@@ -1,0 +1,14 @@
+nav {
+    margin: 10px 0;
+    margin-right: 20px;
+    height: calc(100vh - 40px);
+    padding: 4px 20px;
+    background-color: rgba(var(--background-color), 0.80);
+    box-shadow: 0 20px #33333325;
+    backdrop-filter: blur(20px);
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    border-radius: 4px;
+}

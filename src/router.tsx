@@ -1,27 +1,22 @@
 import {createBrowserRouter} from "react-router-dom";
-import IndexPage from "./pages/indexPage";
 import AppOutlet from "./layout/AppOutlet";
-import AdminIndex from "./pages/admin/adminIndex";
-import ExhausterTrends from "./pages/admin/exhausterTrends";
+import ExgausterIndexPage from "./pages/<exgauster>";
+import DashboardPage from "./pages/index-dashboard";
 
+// Index page is looking dashboard, otherwise will move to login page
 export const Router = createBrowserRouter([
     {
         path : '/',
-        index : true,
-        element : <IndexPage/>
-    },
-    {
-        path: 'admin/',
         element : <AppOutlet/>,
-        children : [
+        children: [
             {
-                index : true,
-                element : <AdminIndex/>
+                path: '/',
+                element: <DashboardPage/>,
             },
             {
-                path : 'trends',
-                element : <ExhausterTrends/>
+                path: '<exgauster>',
+                element: <ExgausterIndexPage/>
             }
         ]
-    }
-])
+    },
+]);

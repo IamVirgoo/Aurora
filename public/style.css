@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    --accent-color: #6839EF;
+    --default-color: 16, 4, 13;
+    --background-color: 227, 223, 237;
+    --error-color: #BF0606;
+    --warn-color: #EA6D27;
+    --primary-hover-color: #6839EF;
+}
+
+h1, h2, h3, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway';
+    background: linear-gradient(117.7deg, rgba(0, 0, 0, 0) -6.38%, rgba(104, 57, 239, 0.2) 99.27%), #070410;
+    color: rgb(var(--default-color));
+}
+
+#root {
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: stretch;
+}
+
+a, button {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    text-decoration: none;
+    transition: 0 2px 4px var(--default-color);
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+
+a:hover, button:hover {
+    color: var(--accent-color);
+}
