@@ -1,0 +1,66 @@
+.exhauster {
+    width: 300px;
+    background-color: rgba(var(--background-color), .80);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.line {
+    margin: 10px 0 10px 0;
+    width: 270px;
+    height: 2px;
+    background-color: rgba(var(--background-color), .50);
+    border-radius: 10px;
+}
+
+.exhausterContent {
+    padding: 20px 15px
+}
+
+.exhausterHeading {
+
+}
+
+.exhausterHeadingTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exhausterTitle {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: .1em
+}
+
+.exhausterHeadingTopInfo {
+    font-size: 18px;
+    padding: 5px 13px;
+    background-color: rgba(var(--background-color), .5);
+    transition: 200ms ease-in;
+}
+
+.exhausterHeadingTopInfo:hover {
+    background-color: var(--primary-hover-color);
+    color: rgb(var(--background-color));
+}
+
+.exhausterLastChangeDateWrapper {
+    width: 80px;
+    margin-top: 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: rgba(var(--background-color), .5);
+}
+
+.exhausterLastChangeDate {
+    font-size: 18px;
+    text-align: center;
+}
+
+.exhausterWarnings {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px
+}

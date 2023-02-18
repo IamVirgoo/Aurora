@@ -1,10 +1,10 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { Navbar } from "../components/Navbar";
-import style from './AppOutlet.module.css';
+import Header from "../components/header";
+import style from '../styles/AppOutlet.module.css';
 
 export default function AppOutlet() {
     return <>
-        <Navbar/>
+        <Header/>
         <div className={style.page_outlet}>
             <Outlet/>
         </div>

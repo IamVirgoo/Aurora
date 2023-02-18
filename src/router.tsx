@@ -14,7 +14,7 @@ export const Router = createBrowserRouter([
                 element: <DashboardPage/>,
             },
             {
-                path: '<exgauster>',
+                path: ':id',
                 element: <ExgausterIndexPage/>
             }
         ]
