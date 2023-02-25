@@ -21,6 +21,10 @@ body {
     color: rgb(var(--default-color));
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 #root {
     display: flex;
     /* align-items: stretch; */

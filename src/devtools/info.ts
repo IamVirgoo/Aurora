@@ -195,3 +195,209 @@ export const algomachines = [
         ]
     },
 ]
+
+export const sidebarTreeInfo = [
+    {
+        title : "Подшипники",
+        children : [
+            {
+                title : "1 ПС",
+                children : [
+                    {
+                        title : "T, °С",
+                        number : "0000"
+                    },
+                    {
+                        title : "В, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "Г, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "О, мм/с",
+                        number : "0000"
+                    },
+                ]
+            },
+            {
+                title : "2 ПС",
+                children : [
+                    {
+                        title : "T, °С",
+                        number : "0000"
+                    },
+                    {
+                        title : "В, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "Г, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "О, мм/с",
+                        number : "0000"
+                    },
+                ]
+            },
+            {
+                title : "7 ПС",
+                children : [
+                    {
+                        title : "T, °С",
+                        number : "0000"
+                    },
+                    {
+                        title : "В, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "Г, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "О, мм/с",
+                        number : "0000"
+                    },
+                ]
+            },
+            {
+                title : "8 ПС",
+                children : [
+                    {
+                        title : "T, °С",
+                        number : "0000"
+                    },
+                    {
+                        title : "В, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "Г, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "О, мм/с",
+                        number : "0000"
+                    },
+                ]
+            },
+            {
+                title : "9 ПС",
+                children : [
+                    {
+                        title : "T, °С",
+                        number : "0000"
+                    },
+                    {
+                        title : "В, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "Г, мм/с",
+                        number : "0000"
+                    },
+                    {
+                        title : "О, мм/с",
+                        number : "0000"
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title : "Редуктор",
+        children : [
+            {
+                title : "T на 3 ПС, °С",
+                number : "0000"
+            },
+            {
+                title : "T на 4 ПС, °С",
+                number : "0000"
+            },
+            {
+                title : "T на 5 ПС, °С",
+                number : "0000"
+            },
+            {
+                title : "T на 6 ПС, °С",
+                number : "0000"
+            },
+        ]
+    },
+    {
+        title : "Маслобак",
+        children : [
+            {
+                title : "У.М., %",
+                number : "0000"
+            },
+            {
+                title : "Д.М., кг/см2",
+                number : "0000"
+            }
+        ]
+    },
+    {
+        title : "Газовый коллектор",
+        children : [
+            {
+                title : "T газа, °С",
+                number : "0000"
+            },
+            {
+                title : "Р, мм.в.ст",
+                number : "0000"
+            },
+            {
+                title : "Уровень пыли, мг/м3",
+                number : "0000"
+            }
+        ]
+    },
+    {
+        title : "Главный привод",
+        children : [
+            {
+                title : "Ток, А",
+                number : "0000"
+            },
+            {
+                title : "Ток дв., А",
+                number : "0000"
+            },
+            {
+                title : "Напр.рот., кВт",
+                number : "0000"
+            },
+            {
+                title : "Напр.стат., кВт",
+                number : "0000"
+            }
+        ]
+    },
+    {
+        title : "Охладитель",
+        children : [
+            {
+                title : "T воды до, °С",
+                number : "0000"
+            },
+            {
+                title : "T воды после, °С",
+                number : "0000"
+            },
+            {
+                title : "T масла до, °С",
+                number : "0000"
+            },
+            {
+                title : "T масла до, °С",
+                number : "0000"
+            }
+        ]
+    }
+]

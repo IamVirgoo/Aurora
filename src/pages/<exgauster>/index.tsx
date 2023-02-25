@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
+import SidebarTree from "../../components/sidebarTree";
 
 const ExgausterIndexPage = () => {
-
-    return (<>
-        <h1>Hello, exgauster</h1>
-        <p></p>
-    </>)
+    return <>
+        <SidebarTree/>
+    </>
 }
 
 export default ExgausterIndexPage;

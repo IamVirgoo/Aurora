@@ -1,0 +1,10 @@
+.sidebar {
+    width: 380px;
+    border-radius: 10px;
+    background-color: rgba(var(--background-color), .80);
+    backdrop-filter: blur(10px);
+}
+
+.content {
+    padding: 10px 15px 5px 10px;
+}
